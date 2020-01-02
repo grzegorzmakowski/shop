@@ -10,11 +10,4 @@ import Foundation
 
 public protocol CarsUseCase {
     func cars(_ completion: @escaping (Result<[Car], Error>) -> ())
-//    func save(_ car: Car, completion: @escaping () -> ())
-//    func delete(_ car: Car, completion: @escaping () -> ())
 }
-
-//public protocol UseCase {
-//    associatedtype T: Codable
-//    func fetch(_ completion: @escaping (Result<T, Error>) -> ())
-//}

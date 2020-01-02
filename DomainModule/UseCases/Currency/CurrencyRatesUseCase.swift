@@ -10,6 +10,4 @@ import Foundation
 
 public protocol CurrencyRatesUseCase {
     func rates(_ completion: @escaping (Result<[CurrencyRate], Error>) -> ())
-//    func save(_ rate: CurrencyRate, completion: @escaping () -> ())
-//    func delete(_ rate: CurrencyRate, completion: @escaping () -> ())
 }
